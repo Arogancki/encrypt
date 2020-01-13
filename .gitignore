@@ -80,3 +80,6 @@ typings/
 # .env*
 # *.env
 # .env
+
+dist
+dist/

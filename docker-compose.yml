@@ -18,7 +18,7 @@ services:
             KEY_GENERATION_PASSPHRASE: asdadasfkhbdsakfebk
             JWT_SECRET_KEY: SomeSecretKeyTest
             JWT_EXPIRATION_TIME: 300
-            PATH_TO_PDF_FILE: ..\src\assets\sample.pdf
+            PATH_TO_PDF_FILE: /opt/src/assets/sample.pdf
 
     mongo:
         image: mongo:latest
